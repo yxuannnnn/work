@@ -1,0 +1,448 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>許雅瑄</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/slider/1.png" type="image/png">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <script>
+       function show1()
+      {
+        n1 = Math.random()
+        t1.value = n1
+      }
+      function show2()
+      {
+        n2 = Math.ceil(Math.random()*10)
+        t2.value = n2
+      }
+      function show3()
+      {
+        n3 = Math.ceil(Math.random()*100)
+        t3.value = n3
+
+      }
+      function show4()
+      {
+        n4 = Math.ceil(Math.random()*13)
+        p1.src = "poker/"   +    n4   +   ".gif"
+
+      }
+      function showplayer()
+      {
+        a1 = Math.ceil(Math.random()*13)
+        player.src="poker/" +  a1 + ".gif"
+        iswin()
+      }
+      
+
+      var a1,a2
+      function showhost()
+      {
+        a2 = Math.ceil(Math.random()*13)
+        host.src="poker/" +  a2 + ".gif"
+       iswin()
+      }
+    function iswin()
+    {
+      if (a1>a2)
+        {
+          document.getElementById("win").innerHTML="玩家贏"
+        }
+        else if(a1<a2)
+        {
+          document.getElementById("win").innerHTML="莊家贏"
+        }
+        else if(a1==a2)
+        {
+          document.getElementById("win").innerHTML="平手"
+        }
+    }
+    </script>
+
+
+</head>
+
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+   
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== NAVBAR TWO PART START ======-->
+
+    <section class="navbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                       
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/logo.svg" alt="Logo">
+                        </a>
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item active"><a class="page-scroll" href="#home">首頁</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#services">產生亂數</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#portfolio">隨機顯示撲克牌</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#pricing">比大小</a></li>
+                                
+                            </ul>
+                        </div>
+                        
+                        
+                    </nav> <!-- navbar -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== NAVBAR TWO PART ENDS ======-->
+    
+    <!--====== SLIDER PART START ======-->
+
+    <section id="home" class="slider_area">
+        <div id="carouselThree" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselThree" data-slide-to="1"></li>
+                <li data-target="#carouselThree" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="slider-content">
+                                    <h1 class="title">許雅瑄-國泰金控</h1>
+                                    
+                                </div>
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                    <div class="slider-image-box d-none d-lg-flex align-items-end">
+                        <div class="slider-image">
+                            <img src="assets/images/slider/1.png" alt="Hero">
+                        </div> <!-- slider-imgae -->
+                    </div> <!-- slider-imgae box -->
+                </div> <!-- carousel-item -->
+
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="slider-content">
+                                    <h1 class="title">許雅瑄-國泰金控</h1>
+                                    
+                                </div> <!-- slider-content -->
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                    <div class="slider-image-box d-none d-lg-flex align-items-end">
+                        <div class="slider-image">
+                            <img src="assets/images/slider/2.png" alt="Hero">
+                        </div> <!-- slider-imgae -->
+                    </div> <!-- slider-imgae box -->
+                </div> <!-- carousel-item -->
+
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="slider-content">
+                                    <h1 class="title">許雅瑄-國泰金控</h1>
+                                   
+                                </div> <!-- slider-content -->
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                    <div class="slider-image-box d-none d-lg-flex align-items-end">
+                        <div class="slider-image">
+                            <img src="assets/images/slider/3.png" alt="Hero">
+                        </div> <!-- slider-imgae -->
+                    </div> <!-- slider-imgae box -->
+                </div> <!-- carousel-item -->
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
+                <i class="lni lni-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
+                <i class="lni lni-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!--====== SLIDER PART ENDS ======-->
+    
+    <!--====== FEATRES TWO PART START ======-->
+
+    <section id="services" class="features-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div>
+                    <div class="section-title text-center pb-10">
+                        <h3 class="title">產生亂數</h3>
+                        <hr>
+                        <div class="container">
+                          <div class="row">
+                            <button onclick="show1()" class="btn btn-danger col-5">產生0～1之間亂數</button>
+                            <input id="t1" type="text" class="col-6 offset-1"><br>
+                            <button onclick="show2()" class="btn btn-primary col-5">產生1～10之間亂數</button>
+                            <input id="t2" type="text" class="col-6 offset-1"><br>
+                            <button onclick="show3()" class="btn btn-success col-5">產生1～100之間亂數 </button>
+                            <input id="t3" type="text" class="col-6 offset-1"><br>
+                          </div>
+                        </div>
+
+
+
+
+                        
+                    </div> <!-- row -->
+                </div>
+           
+    <!--====== FEATRES TWO PART ENDS ======-->
+    
+    <!--====== PORTFOLIO PART START ======-->
+
+<section id="portfolio" class="portfolio-area portfolio-four pb-100">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-10">
+        <div class="section-title text-center pb-10">
+          <h3 class="title">隨機顯示撲克牌</h3>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <image id="p1" onclick="show4()" class="offset-4 col-4" src="poker/0.GIF">
+            </div>
+          </div>
+
+
+
+
+          
+        </div>
+      </div>
+    </div>
+    
+    <!--====== PRINICNG START ======-->
+
+    <section id="pricing" class="pricing-area ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-25">
+                        <h3 class="title">比大小</h3>
+                        <hr>
+                        <div class="container">
+                          <div class="row">
+                            <img id="player" onclick="showplayer()" src="poker/0.GIF" class="col-3 offset-1">
+                            <img id="host" onclick="showhost()" src="poker/0.GIF" class="col-3 offset-4">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <label class="col-4 offset-1 bg-warning">玩家</label>
+                          <label id="win" class="col-3 text-danger">輸贏</label>
+                          <label class="col-4 bg-warning">莊家</label>
+                        </div>
+
+
+
+                        
+    
+    <!--====== ABOUT PART START ======-->
+
+   
+
+    
+    <!--====== CONTACT PART START ======-->
+
+    <section id="contact" class="contact-area">
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                </div>
+            </div> <!-- row -->
+            <div class="contact-info pt-30">
+                
+                </div> <!-- row -->
+            </div> <!-- contact info -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-wrapper form-style-two pt-115">
+                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
+                        
+                        <form id="contact-form" action="assets/contact.php" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-input mt-25">
+                                        <label>Name</label>
+                                        <div class="input-items default">
+                                            <input name="name" type="text" placeholder="Name">
+                                            <i class="lni lni-user"></i>
+                                        </div>
+                                    </div> <!-- form input -->
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-input mt-25">
+                                        <label>Email</label>
+                                        <div class="input-items default">
+                                            <input type="email" name="email" placeholder="Email">
+                                            <i class="lni lni-envelope"></i>
+                                        </div>
+                                    </div> <!-- form input -->
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-input mt-25">
+                                        <label>Massage</label>
+                                        <div class="input-items default">
+                                            <textarea name="massage" placeholder="Massage"></textarea>
+                                            <i class="lni lni-pencil-alt"></i>
+                                        </div>
+                                    </div> <!-- form input -->
+                                </div>
+                                <p class="form-message"></p>
+                                <div class="col-md-12">
+                                    <div class="form-input light-rounded-buttons mt-30">
+                                        <button class="main-btn light-rounded-two">Send Message</button>
+                                    </div> <!-- form input -->
+                                </div>
+                            </div> <!-- row -->
+                        </form>
+                    </div> <!-- contact wrapper form -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->
+
+    <section class="footer-area footer-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="footer-logo text-center">
+                        <a class="mt-30" href="index.html"><img src="assets/images/logo.svg" alt="Logo"></a>
+                    </div> <!-- footer logo -->
+                  
+                    
+                   
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->    
+
+    <!--====== PART START ======-->
+
+<!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min"></script>
+	<script src="assets/js/ajax-contact"></script>
+	<script src="assets/js/"></script>
+    
+    <!--====== Isotope js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+
+</html>
